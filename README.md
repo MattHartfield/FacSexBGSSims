@@ -1,7 +1,7 @@
 FacSexBGSSims:
 
 Forward-in-time simulations of background selection, that can account for varying rates 
-of selfing and asexuality.
+of selfing and asexuality. Written in C++.
 
 This simulation is based on those created for Kamran-Disfani & Agrawal 2014 JEB paper
 "Selfing, adaptation and background selection in finite populations".

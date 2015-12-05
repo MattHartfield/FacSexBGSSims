@@ -258,8 +258,8 @@ void theWorld::runModel(long int generations, int whichRounds) {
 		for(int j=0; j<popCollection.size(); j++) {
 
 			// save data every 20 generations
-			// MH: Every 100 in my case, and ONLY after 2N gens
-			if((((i-1)%(2*POPULATION/200) == 0) && ((i-1) >= (2*POPULATION)))) {
+			// MH: Every 100 in my case, and ONLY after 5N gens
+			if((((i-1)%(5*POPULATION/200) == 0) && ((i-1) >= (5*POPULATION)))) {
 
 				// calculate mean values & variances
 				vector<int> Delmutations;

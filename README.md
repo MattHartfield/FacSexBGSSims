@@ -7,8 +7,8 @@ This simulation is based on those created for Kamran-Disfani & Agrawal 2014 JEB 
 "Selfing, adaptation and background selection in finite populations".
 
 Variables are changed in the file 'theConstants.h'; the program is then compiled and executed. 
-By default, a burn-in population is created for 2N generations, then the population is sampled at 200 timepoints over a
-further 2N generations. Various outputs are produced, including variance in the neutral
+By default, a burn-in population is created for 5N generations, then the population is sampled at 200 timepoints over a
+further 5N generations. Various outputs are produced, including variance in the neutral
 quantitative trait (which is used to measure Ne).
 
 Simulation uses routines found with the GNU Scientific Library (GSL)

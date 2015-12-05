@@ -258,7 +258,7 @@ void theWorld::runModel(long int generations, int whichRounds) {
 		for(int j=0; j<popCollection.size(); j++) {
 
 			// save data every 20 generations
-			// MH: Every 100 in my case, and ONLY after 5N gens
+			// MH: Every 5N/200 in my case, and ONLY after 5N gens
 			if((((i-1)%(5*POPULATION/200) == 0) && ((i-1) >= (5*POPULATION)))) {
 
 				// calculate mean values & variances
